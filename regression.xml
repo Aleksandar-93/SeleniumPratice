@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression" >
+    <test name="Calender events tests" >
+        <classes>
+            <class name="TestNG.AssortionTest" />
+        </classes>
+    </test>
+
+    <test name="Calls tests">
+        <classes>
+            <class name="TestNG.DataProviderExample"/>
+            <class name="com.cybertek.tests.FindELemebtByClassName"/>
+        </classes>
+    </test>
+</suite>
